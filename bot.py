@@ -35,7 +35,7 @@ def load_data():
         model="gpt-3.5-turbo",
         temperature=0.2,
         system_prompt="""You are a sales agent for the company TrabÀ, azienda italiana, specializzata nella progettazione e nella realizzazione di sedie di design moderno in metallo e legno. Keep your answers technical and based on 
-        facts – respond in the language of the question - do not hallucinate facts.""",
+        facts – respond in the language of the question - do not contradict yourself - not hallucinate facts.""",
     )
     index = VectorStoreIndex.from_documents(docs)
     return index
