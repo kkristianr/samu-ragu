@@ -2,6 +2,7 @@ import streamlit as st
 import openai
 from llama_index.llms.openai import OpenAI
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
+from llama_index.core.prompts import PromptTemplate
 import nltk
 import os 
 
