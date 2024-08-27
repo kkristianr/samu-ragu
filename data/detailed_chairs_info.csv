@@ -1,0 +1,16 @@
+Item Code,Model,Designer,Height (cm),Width (cm),Depth (cm),Seat Height (cm),Overall Height (cm),Overall Width (cm),Overall Depth (cm),Weight,Volume (m^3)
+0010-H47,NHINO STOOL,Emilio Nanni,47,44,36,47,50,45,45,5 kg,0.0
+0012-H77,NHINO STOOL,Emilio Nanni,77,44,47,77,80,45,45,6 kg,0.0
+0020-LE,JULIE,Emilio Nanni,77,43,47,47,96,46,66,12 kg,0.0
+0021-IMB,JULIE,Emilio Nanni,77,43,47,47,96,46,66,12 kg,0.0
+0023-CU,JULIE,Emilio Nanni,77,43,47,47,96,46,66,12 kg,0.0
+0024-IN,JULIE,Emilio Nanni,77,43,47,47,96,46,66,12 kg,0.0
+0031-MET,BARDOT MET,Emilio Nanni,77,45,54,47,85,56,70,14 kg,0.0
+0047-MET,GENOA,Cesare EHR,73,42,51,47,88,55,63,24 kg,0.0
+0048-MET,GENOA,Cesare EHR,73,51,51,47,88,55,63,24 kg,0.0
+0082-MET,SKIN,Giacomo Cattani,80,58,57,47,80,60,60,10 kg,0.0
+0084-MET,SKIN,Giacomo Cattani,80,58,57,47,80,60,60,10 kg,0.0
+0171-CB,METIS DOT,Studio Gabbertas,80,59,53,47,88,54,62,24 kg,0.0
+0172-LOUNGE,METIS DOT,Studio Gabbertas,71,60,61,40,76,65,69,17 kg,0.0
+0191-CB,METIS LINE,Studio Gabbertas,80,59,53,47,88,54,62,24 kg,0.0
+0192-LOUNGE,METIS LINE LOUNGE,Studio Gabbertas,71,60,61,40,76,65,69,17 kg,0.0
