@@ -17,7 +17,7 @@ nltk.download("punkt_tab", download_dir=nltk_data_dir)
 
 st.set_page_config(page_title="Samu-Ragù", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets.openai_key
-st.subheader("Chat with Samu-Ragù, l'agente virtuale che offre soluzioni ai tuoi dubbi 💬")
+st.subheader("Chat with Samu-Ragù, l'agente virtuale di TrabÀ")
 
 if "messages" not in st.session_state.keys():  # Initialize the chat messages history
     st.session_state.messages = [
@@ -34,8 +34,8 @@ def load_data():
     Settings.llm = OpenAI(
         model="gpt-3.5-turbo",
         temperature=0.2,
-        system_prompt="""You are an sales agent for the company TrabÀ, azienda italiana, è specializzata nella progettazione e nella realizzazione di sedie di design moderno in metallo e legno. Keep your answers technical and based on 
-        facts – respond in the language of the question - do not hallucinate features.""",
+        system_prompt="""You are a sales agent for the company TrabÀ, azienda italiana, specializzata nella progettazione e nella realizzazione di sedie di design moderno in metallo e legno. Keep your answers technical and based on 
+        facts – respond in the language of the question - do not hallucinate facts.""",
     )
     index = VectorStoreIndex.from_documents(docs)
     return index
