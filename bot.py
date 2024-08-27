@@ -2,6 +2,9 @@ import streamlit as st
 import openai
 from llama_index.llms.openai import OpenAI
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader, Settings
+import nltk
+
+nltk.download("punkt")
 
 st.set_page_config(page_title="Samu-Ragù", page_icon="🦙", layout="centered", initial_sidebar_state="auto", menu_items=None)
 openai.api_key = st.secrets.openai_key
